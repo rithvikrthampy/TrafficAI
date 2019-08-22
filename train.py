@@ -1,0 +1,10 @@
+from config import args
+import bike_detection_train
+import hog_helmet_detection_train
+import cnn_helmet_detection_train
+bike_detection_train.hog_bike_detection_train(args)
+hog_helmet_detection_train.hog_helmet_detection_train(args)
+cnn_helmet_detection_train.cnn_model_train(args)
+
+
+
